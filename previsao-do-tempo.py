@@ -2,7 +2,7 @@ import requests
 import json
 
 
-cidade = input('Escreva a cidade: ')
+cidade = input('Digite o nome da sua cidade cidade: ')
 
 #URL da api utilizada e sua chave de acesso.
 req = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+cidade+'&appid=75cd523398152201e9e42dd3a0711bb5')
